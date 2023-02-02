@@ -1,0 +1,19 @@
+{
+    "What should be the minimum educational background to have income > 50K?" :
+    "People with educational years 11 or more, are more likely to earn > 50K, hence higher or university level education is required to have high income ",
+
+    "What age range is more likely to have high income?" : 
+    "People who are in range of around 40s or late 30s are more likely to earn high salaries",
+
+    "What workclass is favorable for high income?" :
+    "Doing a self owned business provides more probability to have high income",
+
+    "What is the realtionship status of people who are high income earners?" :
+    "People who are civilian and married are more likely to earn high income, reason can be need to support family",
+
+    "What race of people are significant in the dataset?" :
+    "The White people are in large majority of dataset and as native country is USA, it can be said census was carried out in USA",
+
+    "Is there an outcome of income based on gender of the individual?" :
+    "From the dataset, it is visible that proportional difference in two income groups is quite large for female compared to male"
+}

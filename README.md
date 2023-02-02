@@ -9,7 +9,25 @@ This repository contains a file called “Input_Dataset”. This dataset provide
 The task is to persist this data for future use and derive some insights from it.
 
 ### Ingesting data into database
-The dataset is cleaned and afterwards a database schema is created. Furthermore, a script is created which can upload the data from the Input_Dataset file to the SQLite database 'census.db'.
+The dataset is cleaned and afterwards a database schema is created. Furthermore, a script is created which can upload the data from the cleaned input.csv file to the SQLite database 'census.db'.
 
 ### Deriving insights
-The code also derives interesting insights from the data provided.
+The code also derives interesting insights from the data provided in notebook data_insights.ipynb
+
+### API Endpoint
+There is a simple API endpoint in file api.py with which users can query the database for defined filter parameters from the dataset and receive a JSON response.
+
+#### Requirements
+Following are the required libraries:
+- pandas
+- numpy
+- math
+- sqlite3
+- csv
+- matplotlib
+- seaborn
+
+Please install flask and flask_cors in order to run api.py
+
+- pip install flask
+- pip install Flask-Cors
